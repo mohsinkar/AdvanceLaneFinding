@@ -38,4 +38,32 @@ Using the calibration matrix and the distotion coefficients corrected the images
 
 ![Alt text](https://github.com/mohsinkar/AdvanceLaneFinding/blob/master/Images%20Undistorted/Images_3.png)
 
+## Image Transformation
+
+After defining the region of interest and the source and distination points the image was transformed to look at the street lines as Birds eye view
+
+![Alt text](https://github.com/mohsinkar/AdvanceLaneFinding/blob/master/Perspective%20Transform/Image_1.png)
+
+![Alt text](https://github.com/mohsinkar/AdvanceLaneFinding/blob/master/Perspective%20Transform/Image_2.png)
+
+
+## Gradient Transformation:
+
+1. HSV
+2. Sobel
+3. Color range for yellow and white 
+      color_ranges_white = [([0,0,255-sensitivity],[255,sensitivity,255]) ]    
+      color_ranges_yellow = [([5,100,100],[25,255,255])]
+      
+![Alt text](https://github.com/mohsinkar/AdvanceLaneFinding/blob/master/Gradient%20Threshold/Image_1.png)
+![Alt text](https://github.com/mohsinkar/AdvanceLaneFinding/blob/master/Gradient%20Threshold/Image_2.png)
+
+## Left and Right Lane Detection
+
+![Alt text](https://github.com/mohsinkar/AdvanceLaneFinding/blob/master/Lane%20Detection/Image_1.png)
+![Alt text](https://github.com/mohsinkar/AdvanceLaneFinding/blob/master/Lane%20Detection/Image_2.png)
+
+## Calculating the curvature and Tranforming back
+
+![Alt text](https://github.com/mohsinkar/AdvanceLaneFinding/blob/master/Radius%20and%20Curvature/Image_1.png)
 
