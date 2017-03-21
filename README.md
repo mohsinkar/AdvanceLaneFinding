@@ -70,5 +70,11 @@ After defining the region of interest and the source and distination points the 
 
 ## Current Issues and Improvements:
 
-There are a few issues that can be fixed on detecting lane better under the Shadow and changing street color under shade and sunlight. Also one potential thing that can be done to improve is to better average out the curve based on previous frames and perform strict sanity checks.
+* There are a few issues that can be fixed on detecting lane better under the Shadow and changing street color under shade and sunlight.
+
+* More different color can be detected to better find the lanes by adjusting and playing arund the sensitivity of the ranges.
+     color_ranges_white = [([0,0,255-sensitivity],[255,sensitivity,255]) ]    
+     color_ranges_yellow = [([5,100,100],[25,255,255])]
+
+* Also one potential thing that can be done to improve is to better average out the curve based on previous frames and perform strict sanity checks.
 
