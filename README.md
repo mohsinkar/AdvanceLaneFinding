@@ -67,3 +67,8 @@ After defining the region of interest and the source and distination points the 
 
 ![Alt text](https://github.com/mohsinkar/AdvanceLaneFinding/blob/master/Radius%20and%20Curvature/Image_1.png)
 
+
+## Current Issues and Improvements:
+
+There are a few issues that can be fixed on detecting lane better under the Shadow and changing street color under shade and sunlight. Also one potential thing that can be done to improve is to better average out the curve based on previous frames and perform strict sanity checks.
+
